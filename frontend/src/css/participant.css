@@ -1,0 +1,46 @@
+.participants-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.participants-list {
+  list-style: none;
+  padding: 0;
+}
+
+.participant-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  background: #f9f9f9;
+}
+
+.participant-header h4 {
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.participant-meta {
+  color: #666;
+  font-size: 14px;
+}
+
+.user-name {
+  margin: 12px 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.participant-details {
+  color: #888;
+  font-size: 14px;
+}
+
+.no-participants {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  margin-top: 20px;
+}

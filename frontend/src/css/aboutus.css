@@ -1,0 +1,49 @@
+.about-div {
+  height: 100%;
+  display: flex;
+  margin-top: 200px;
+    justify-content: center; 
+    align-items: center;  
+    
+
+
+  
+  width:100%;
+
+  
+
+}
+
+
+
+.circle-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* center circles horizontally */
+  align-items: center;       /* center vertically */
+  gap: 30px;
+  max-width: 800px;
+}
+
+.circle {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: #EEAC7E;
+
+  color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+  text-align: center;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.circle:hover {
+  transform: scale(1.08);
+}

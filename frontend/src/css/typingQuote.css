@@ -1,0 +1,42 @@
+.typing-container {
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+
+.typing-text {
+  font-family: brush script MT, cursive;
+  font-size: 30px;
+  font-weight: 500;
+  color: #A05252;
+  text-align: center;
+  max-width: 700px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  opacity: 0;
+  animation: fadeIn 1.8s ease forwards;
+}
+
+.cursor {
+  margin-left: 6px;
+  animation: blink 1.8s infinite;
+  color: #D67C4E;
+  font-weight: 600;
+}
+
+/* Soft fade */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Gentle breathing cursor */
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 1; }
+}

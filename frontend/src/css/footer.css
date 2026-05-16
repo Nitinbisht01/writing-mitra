@@ -1,0 +1,72 @@
+.footer-section {
+  background-color: #EDE8D0;
+  color: #82716E;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Soft layered gradient */
+.footer-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(214, 124, 78, 0.08),
+    rgba(144, 200, 246, 0.08),
+    rgba(157, 193, 131, 0.08)
+  );
+  z-index: 0;
+}
+
+.footer-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.footer-logo {
+   
+  color: #D67C4E;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.footer-tagline {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.footer-section h5 {
+  color: #A05252;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #82716E;
+  transition: all 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #D67C4E;
+  padding-left: 4px;
+}
+
+.footer-divider {
+  border-top: 1px solid #9DC183;
+  opacity: 0.5;
+}
+
+/* Social Icons */
+.social-icon {
+  font-size: 20px;
+  color: #82716E;
+  transition: all 0.35s cubic-bezier(.25,.8,.25,1);
+  display: inline-flex;
+}
+
+.social-icon:hover {
+  color: #D67C4E;
+  text-shadow: 0 6px 14px rgba(214, 124, 78, 0.4);
+}

@@ -1,0 +1,51 @@
+# ===========================
+# STS / ECLIPSE WORKSPACE
+# ===========================
+**/.metadata/
+**/.mylyn/
+**/.recommenders/
+**/.settings/
+**/.classpath
+**/.project
+**/.factorypath
+**/*.launch
+**/RemoteSystemsTempFiles/
+
+# ===========================
+# JAVA / SPRING BOOT
+# ===========================
+**/target/
+**/*.jar
+**/*.war
+**/*.class
+**/*.log
+
+# Spring secrets — NEVER commit
+**/application-local.properties
+**/application-dev.properties
+**/application-prod.properties
+
+# ===========================
+# REACT FRONTEND
+# ===========================
+**/node_modules/
+**/build/
+**/dist/
+**/.env
+**/.env.local
+**/.env.*
+!**/.env.example
+
+# ===========================
+# IDE — IntelliJ
+# ===========================
+**/.idea/
+**/*.iml
+
+# ===========================
+# SYSTEM
+# ===========================
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp

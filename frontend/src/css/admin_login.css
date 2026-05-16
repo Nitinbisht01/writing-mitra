@@ -1,0 +1,40 @@
+.head{
+    font-family: "brush script MT";
+    text-align: center;
+    color: #82716E;
+    text-decoration:wavy underline;
+    
+
+}
+.flex-container{
+    
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+.image-div{
+    height: 60vh;
+    width: 30%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    border-radius: 20px;
+
+}
+.image-div img{
+    
+    height: 100%;
+    width:100%;
+    border-radius: 20px;
+
+}
+.form-div{
+    border-radius: 20px;
+    border: 2px solid burlywood;
+    width: 40%;
+    height: 350px;
+}

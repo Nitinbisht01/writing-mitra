@@ -1,0 +1,81 @@
+/* Main Card */
+.feedback-card {
+  background-color: #EDE8D0;
+  border-radius: 25px;
+  box-shadow: 0 15px 35px rgba(130, 113, 110, 0.15);
+  border: 1px solid rgba(157, 193, 131, 0.3);
+  transition: all 0.4s ease;
+}
+
+.feedback-card:hover {
+  box-shadow: 0 20px 45px rgba(214, 124, 78, 0.2);
+}
+
+/* Labels */
+.form-label {
+  color: #82716E;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Inputs */
+.form-control {
+  background-color: #fffdf5;
+  border-radius: 15px;
+  border: 1px solid #9DC183;
+  color: #82716E;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #D67C4E;
+  box-shadow: 0 0 10px rgba(214, 124, 78, 0.3);
+  background-color: #ffffff;
+}
+
+/* Rating Title */
+.rating-title {
+  color: #A05252;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+}
+
+/* Stars */
+.star-container i {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #82716E;
+}
+
+.star-container i:hover {
+  transform: translateY(-6px) scale(1.15);
+}
+
+.active-star {
+  color: #D67C4E;
+  text-shadow: 0 6px 18px rgba(214, 124, 78, 0.4);
+}
+
+/* Emoji */
+.emoji-display {
+  font-size: 45px;
+  transition: all 0.3s ease;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #D67C4E;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 0;
+  border: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.submit-btn:hover {
+  background-color: #ec4545;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(235, 89, 16);
+}
